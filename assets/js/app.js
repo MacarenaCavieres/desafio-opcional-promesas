@@ -16,7 +16,7 @@ const albumes = () => {
 
                 resolve(console.log(`Informacion enviada`));
             } catch (err) {
-                reject(console.log(err));
+                reject(`Error por ${err}`);
             }
         }, 3000);
     });
